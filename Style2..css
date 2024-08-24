@@ -1,4 +1,22 @@
 #Container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    width:1024px;
+    height:768px;
+    display:block;
+    
+}
+img{
+    width:28%;
+    padding: 5px;
+    margin: 10px;
+}
+@media screen and (max-width:800px) {
+img{
+    width:40%;
+}
+}
+@media screen and (max-width:500px) {
+    img{
+        width:50%;
+    }
+    
 }
